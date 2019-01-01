@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+div.right span {
+	color: #FF6760;
+}
+div.left, div.right {
+	width: 50%;
+}
+div.left{
+	float:left;
+}
+div.left span {
+	color: white;
+	font-size: 25px;
+	padding: 5px;
+	position: relative;
+	top: 25px;
+	left: 30px;
+	font-weight: bold;
+}
+div.right{
+	float:right;
+}
+nav {
+	background: #262626;
+	height: 80px;
+}
+ul li, ul li:hover {
+	display: inline;
+	padding: 10px 15px;
+	position: relative;
+	top: 33px;
+	left: 320px;
+	cursor: pointer;
+
+}
+ul li a{
+	font-size: 17px;
+	text-transform: uppercase;
+	color: #D8CCA5;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: monospace;
+	margin-right: 10px;
+	letter-spacing: 1px;
+
+}
+
+/*SECTION-1*/
+#section-1 {
+	background: #2A2A2A;
+	height: 410px;
+	text-align: center;
+}
+#section-1 h1 {
+	font-size: 45px;
+	font-family: 'Nanum Gothic', sans-serif;
+	color: #D8D8D8;
+	font-weight: 100;
+	padding-top: 50px;
+	margin-bottom: 20px;
+}
+#section-1 span.pico {
+	 font-size: 47px;
+	 color: #D8D8D8;
+	 font-weight: 800;
+}
+#section-1 p {
+	font-size: 35px;
+	font-family: 'Pontano Sans', sans-serif;
+	color: #BCD2D8;
+	font-weight: -100;
+	word-spacing: 08px;
+	letter-spacing: 3px;
+	margin-bottom: 25px;
+
+}
+#section-1 span {
+	color: #DD6760;
+}
+input#button, input#button:hover{
+	border-radius: 15px;
+ 	 background: #FF6760;
+ 	 padding: 10px; 
+ 	 width: 150px;
+  	height: 50px; 
+  	color: #fff;
+  	font-size: 14px;4
+  	font-weight: bold;
+  	border: solid 0;
+  	cursor: pointer;
+  	margin-top: 15px;
+}
+
+/*END OF SECTIO-1 */
+
+/*BEGINING OF 3 COL SECTION*/
+ div.box {
+ 	width: 32%;
+ 	display: inline;
+ 	float: left;
+ 	color: #616161;
+ 	text-align: center;
+ 	padding-right: 10px;
+ }
+ div.box i {
+ 	font-size: 55px;
+ 	margin-top: 40px;
+ }
+ div.box h2 {
+ 	margin-top: 20px;
+ 	font-size: 20px;
+ 	font-weight: 900;
+ }
+ div.box p {
+ 	margin-top: 20px;
+ 	font-size: 17px;
+
+ }
+ div.box {
+ 	padding-bottom: 50px;
+ }
+/*END OF 3 COL SECTION*/
+
+div#clear {
+	clear: both;
+}
+/*BEGINING OF FOOTER SECTION*/
+
+footer {
+	background: #2A2A2A;
+	height: 180px;
+	text-align: center;
+}
+footer h2 {
+	color: #fff;
+	padding-top: 40px;
+	padding-bottom: 25px;
+
+}
+footer p {
+	color: #858579;
+}
+footer a {
+	color: #79352E;
+	font-size: 18px;
+}
+footer i {
+	font-size: 30px;
+  	color: #5DAED5;
+  	position: relative;
+  	top: -3px;
+
+}
+i.face {
+	color: #4470CF;
+}
+.icon1, .icon {
+	
+	 height: 25px;
+ 	 width: 25px;
+  	background-color: #fff;
+  	border-radius: 50%;
+  	display: inline-block;
+  	position: relative;
+  	top:;
+  	margin: 0 15px;
+  	margin-top: 15px;
+	
+}
+
